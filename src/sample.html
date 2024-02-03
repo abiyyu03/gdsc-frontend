@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DSC - Study Jam Frontend</title>
+		<!-- <link rel="stylesheet" href="./style.css" /> -->
+		<style>
+			/* Style Reset CSS */
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box; /* Mengatur ukuran box: https://www.w3schools.com/css/css3_box-sizing.asp */
+			}
+
+			/* Style Body */
+			body {
+				padding: 10px;
+			}
+
+			.title {
+				text-align: center;
+			}
+
+			/* Style Container Product */
+			.product-container {
+				max-width: 425px; /* Mengatur lebar maksimal container: https://www.w3schools.com/cssref/pr_dim_max-width.php */
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+
+			/* Style Product Card */
+			.product {
+				display: flex;
+				flex-direction: column;
+				border-radius: 10px; /* Mengatur radius border: https://www.w3schools.com/cssref/css3_pr_border-radius.php */
+				box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px; /* Mengatur bayangan box: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+				width: 45%;
+				padding: 10px;
+				margin: 10px;
+			}
+
+			/* Style Product Image */
+			.product-image {
+				width: 100%; /* Mengatur lebar gambar seukuran lebar parent (class product) */
+			}
+
+			/* Style Product Name */
+			.product-name {
+				font-size: 12px;
+				margin-bottom: 4px;
+			}
+
+			/* Style Product Price */
+			.product-price {
+				font-size: 14px;
+				font-weight: bold;
+				margin-bottom: 4px;
+			}
+
+			/* Style Product Location */
+			.product-location {
+				font-size: 11px;
+				color: #6d7588;
+				margin-bottom: 4px;
+				display: flex;
+				align-items: center;
+			}
+
+			.product-location-icon {
+				width: 16px;
+				height: 16px;
+				margin-right: 2px;
+			}
+
+			/* Style Product Rating */
+			.product-rating {
+				font-size: 11px;
+				color: #6d7588;
+				margin-bottom: 4px;
+			}
+
+			/* Style Product Estimation */
+			.product-estimation {
+				font-size: 10px;
+				color: #6d7588;
+			}
+		</style>
+	</head>
+	<body>
+		<h2 class="title">Product Card</h2>
+		<div class="product-container">
+			<div class="product">
+				<img
+					class="product-image"
+					src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/11/15/f85bdd04-8f3c-4868-a3e6-17cd13845116.jpg.webp?ect=4g"
+					alt=""
+				/>
+				<p class="product-name">Samsung Galaxy S24</p>
+				<p class="product-price">Rp.21.999.000</p>
+				<p class="product-location">Jakarta Barat</p>
+				<p class="product-rating">5.0 | 200 Terjual</p>
+				<p class="product-estimation">Tiba 20 - 22 Jan</p>
+			</div>
+			<div class="product">
+				<img
+					class="product-image"
+					src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/11/15/f85bdd04-8f3c-4868-a3e6-17cd13845116.jpg.webp?ect=4g"
+					alt=""
+				/>
+				<p class="product-name">Samsung Galaxy S24</p>
+				<p class="product-price">Rp.21.999.000</p>
+				<p class="product-location">
+					<img
+						class="product-location-icon"
+						src="https://images.tokopedia.net/img/official_store_badge.png"
+						alt=""
+					/>
+					<span>Jakarta Barat</span>
+				</p>
+				<p class="product-rating">5.0 | 200 Terjual</p>
+				<p class="product-estimation">Tiba 20 - 22 Jan</p>
+			</div>
+			<div class="product">
+				<img
+					class="product-image"
+					src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/11/15/f85bdd04-8f3c-4868-a3e6-17cd13845116.jpg.webp?ect=4g"
+					alt=""
+				/>
+				<p class="product-name">Samsung Galaxy S24</p>
+				<p class="product-price">Rp.21.999.000</p>
+				<p class="product-location">
+					<img
+						class="product-location-icon"
+						src="https://images.tokopedia.net/img/official_store_badge.png"
+						alt=""
+					/>
+					<span>Jakarta Barat</span>
+				</p>
+				<p class="product-rating">5.0 | 200 Terjual</p>
+				<p class="product-estimation">Tiba 20 - 22 Jan</p>
+			</div>
+			<div class="product">
+				<img
+					class="product-image"
+					src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/11/15/f85bdd04-8f3c-4868-a3e6-17cd13845116.jpg.webp?ect=4g"
+					alt=""
+				/>
+				<p class="product-name">Samsung Galaxy S24</p>
+				<p class="product-price">Rp.21.999.000</p>
+				<p class="product-location">
+					<img
+						class="product-location-icon"
+						src="https://images.tokopedia.net/img/official_store_badge.png"
+						alt=""
+					/>
+					<span>Jakarta Barat</span>
+				</p>
+				<p class="product-rating">5.0 | 200 Terjual</p>
+				<p class="product-estimation">Tiba 20 - 22 Jan</p>
+			</div>
+		</div>
+	</body>
+</html>
